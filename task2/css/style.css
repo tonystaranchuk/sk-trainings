@@ -1,0 +1,25 @@
+div {
+    display: inline-block;
+    /* font-size: 500%; */
+    margin: 50px;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.youtube:hover {
+    color: #c4302b;
+}
+
+.instagram:hover {
+    color: #d6249f;
+}
+
+.pinterest:hover {
+    color: #c8232c;
+}
+
+a {
+    color: gray; 
+}
