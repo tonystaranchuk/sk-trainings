@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(177, 174, 174);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+div {
+    background-color: white;
+    width: 500px;
+    border: 8px solid red;
+    border-radius: 10px;
+    width: 600px;
+}
+
+hr {
+    width: 300px;
+    color: grey;
+}
+ 
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: 10px 20px
+}
