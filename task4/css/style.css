@@ -1,0 +1,48 @@
+header,nav,section,aside,footer {
+    color: white;
+}
+
+header {
+    background-color: #9ed3aa;
+    height: 100px;
+
+}
+
+body {
+    width: 1000px;
+}
+
+nav {
+    background-color: green;
+    height: 70px;
+}
+
+section,aside {
+    background-color: rgb(46, 115, 219);
+}
+
+#content {
+    background-color: cornflowerblue;
+    float: none;
+    width: 50%;
+}
+
+footer {
+   background-color: #9ed3aa; 
+   height: 40px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+#sidebar {
+    float: left;
+    width: 25%;
+}
+
+#content, #sidebar, aside {
+    display: inline-block;
+    height: 400px;
+}
