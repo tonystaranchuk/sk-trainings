@@ -1,0 +1,20 @@
+li {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #d1cdcd;
+    padding: 15px 90px;
+    background-color: #f5f0f0;
+}
+
+ul {
+    width: 700px;
+}
+
+#three:nth-child(3) {
+    background-color: greenyellow;
+}
+
+#seven:last-child {
+    background-color: greenyellow;
+}
