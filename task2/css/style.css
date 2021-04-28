@@ -1,0 +1,22 @@
+/* div {
+    background-color: salmon;
+    width: 80%;
+    height: 100%;
+    position: fixed;
+
+
+} */
+
+div {
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(136, 136, 204, 0.5);
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: transparent red transparent red;
+    padding: 0 15px;
+   }
