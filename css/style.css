@@ -1,91 +1,39 @@
-.container {
-    width: 200px;
-    height: 200px;
-    display: grid;
-    grid-template-columns: repeat(4, 50px);
-    grid-template-rows: auto;
-    border: 1px solid gray;
-    grid-template-areas:
-    "header header header header"
-    "main main . sidebar"
-    "footer footer footer footer";
-}
-
-.item-a {
-    background-color: blue;
-    grid-area: header;
-}
-
-.item-b {
-    background-color: yellow;
-    grid-area: main;
-}
-
-.item-c {
-    background-color: red;
-    grid-area: sidebar;
-}
-
-.item-d {
-    background-color: green;
-    grid-area: footer;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .conteiner {
-    display: grid;
-    width: 700px;
-    height: 700px;
-    border: 1px solid gray;
-    grid-template-columns: 80px 80px 80px;
-    grid-template-rows: repeat(3, 80px); 
-    grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
-    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
-    gap: 15px 15px;
-    justify-content: center;
-    align-content: center;
-}
+* {
+  padding: 0px;
+  margin: 0px; }
 
 .box {
-    background-color: aquamarine;
-    border: 1px dotted blue;
-}
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  left: 60%;
+  color: red;
+  background-color: aquamarine; }
 
-.item-a {
-    grid-column-start: 2;
-    grid-column-end: five;
-    grid-row-start: row1-start;
-    grid-row-end: 3;
-    border: 1px solid red;
-}
+.conteiner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  background-color: brown; }
 
-.item-c {
-    grid-column: 3 / span 2;
-    grid-row: third-line /4;
-    border: 1px solid yellow;
-} */
+div {
+  background-color: aquamarine;
+  color: grey;
+  font-family: sans-serif, Arial;
+  font-size: 10px; }
+
+nav {
+  position: fixed;
+  top: 100px; }
+  nav ul {
+    background-color: grey; }
+
+p {
+  color: grey; }
+  p:hover {
+    color: yellow; }
